@@ -28,9 +28,10 @@ namespace VIRTUAL_DRIVE_FOR_WINDOWS
 
         public void CreateNewFileMethod(string FilenameWithExtension)
         {
-            SafeFileHandle handle = CreateFile("Z:\\FolderB\\ChildB" + FilenameWithExtension, FileAccess.Write, FileShare.ReadWrite, IntPtr.Zero, FileMode.Create, 0, IntPtr.Zero);
+            SafeFileHandle handle = CreateFile("Z:\\FolderB\\ChildB\\" + FilenameWithExtension, FileAccess.Write, FileShare.ReadWrite, IntPtr.Zero, FileMode.Create, 0, IntPtr.Zero);
+            SafeFileHandle handle2  = CreateFile("Z:\\FolderA\\ChildA\\" + FilenameWithExtension, FileAccess.Write, FileShare.ReadWrite, IntPtr.Zero, FileMode.Create, 0, IntPtr.Zero);
 
-            if (handle.IsInvalid)
+            if ((handle.IsInvalid) && (handle2.IsInvalid))
             {
                 Marshal.ThrowExceptionForHR(Marshal.GetHRForLastWin32Error());
             }
