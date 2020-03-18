@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIRTUAL DRIVE FOR WINDOWS", "VIRTUAL DRIVE FOR WINDOWS\VIRTUAL DRIVE FOR WINDOWS.csproj", "{2B18A3DA-3027-4E2D-8576-44DD8BB2DA84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B18A3DA-3027-4E2D-8576-44DD8BB2DA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B18A3DA-3027-4E2D-8576-44DD8BB2DA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B18A3DA-3027-4E2D-8576-44DD8BB2DA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B18A3DA-3027-4E2D-8576-44DD8BB2DA84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5DA41A9-81B1-4B26-8106-8A1091E2F09A}
+	EndGlobalSection
+EndGlobal
